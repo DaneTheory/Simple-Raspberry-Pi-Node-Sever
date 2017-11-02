@@ -1,7 +1,7 @@
 {
-  "name": "simple-server-node",
+  "name": "simple-raspberry-pi-node-server",
   "version": "1.0.0",
-  "description": "A simple Expressjs Web server on resin.io",
+  "description": "A simple Expressjs Web server running on Raspberry Pi",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,20 +9,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/resin-io-projects/simple-server-node.git"
+    "url": "git+https://github.com/DaneTheory/Simple-Raspberry-Pi-Node-Sever.git"
   },
   "keywords": [
+    "danetheory",
+    "valhalla",
     "resin.io",
     "webserver",
     "nodejs",
     "expressjs"
   ],
-  "author": "Shaun Mulligan <shaun@resin.io>",
-  "license": "Apache-2.0",
+  "author": "Branden Dane <danetheory@gmail.com>",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/resin-io-projects/simple-server-node/issues"
+    "url": "https://github.com/DaneTheory/Simple-Raspberry-Pi-Node-Sever/issues"
   },
-  "homepage": "https://github.com/resin-io-projects/simple-server-node#readme",
+  "homepage": "https://github.com/DaneTheory/Simple-Raspberry-Pi-Node-Sever#readme",
   "dependencies": {
     "express": "*"
   }
